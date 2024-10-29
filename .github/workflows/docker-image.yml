@@ -28,7 +28,7 @@ jobs:
     - name: Build Docker image
       run: |
         docker build -t pereira00/docker-graphql:0.0.2 .
-        docker build -t pereira00/docker-graphql:lastest .
+        docker build -t pereira00/docker-graphql:latest .
 
     - name: Push Docker image
       run: |
